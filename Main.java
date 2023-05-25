@@ -1,0 +1,12 @@
+public class Main {
+
+    public static void main(String[] args) {
+
+        IDandPasswords IDandPasswords = new IDandPasswords();
+
+        LoginPage loginPage = new LoginPage(IDandPasswords.getLoginInfo());
+
+    }
+}
+
+
