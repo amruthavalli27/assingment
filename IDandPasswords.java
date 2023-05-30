@@ -10,7 +10,7 @@ public class IDandPasswords {
         logininfo.put("BroCode","abc123");
     }
 
-    public HashMap getLoginInfo(){
+    public HashMap getLoginInfo() {
         return logininfo;
     }
 }
